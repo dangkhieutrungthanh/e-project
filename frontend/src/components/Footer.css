@@ -1,0 +1,117 @@
+.footer {
+  background-color: #18a0fb;
+  color: #000;
+  padding-block: 32px;
+  padding-inline: 104px;
+}
+
+.footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-column h3 {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.footer-column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-column ul li {
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li:hover {
+  color: white;
+}
+
+/* Cột sản phẩm có khoảng cách nhỏ với đường kẻ */
+.product-column {
+  margin-right: 40px;
+}
+
+/* Đường kẻ dọc giữa “Sản phẩm, dịch vụ” và “Vị trí” */
+.footer-divider-vertical {
+  width: 1px;
+  height: 271px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Cột bản đồ */
+.map-column {
+  width: 330px;
+  margin-left: 40px;
+}
+
+.map-column h3 {
+  margin-bottom: 22px;
+}
+
+.map-placeholder {
+  width: 330px;
+  height: 211px;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+  margin-right: 97px;
+}
+
+/* Đường kẻ ngang dưới cùng */
+.footer-divider {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  max-width: 1440px;
+  margin: 46px auto 0;
+}
+
+/* Phần cuối cùng của footer */
+.footer-bottom {
+  max-width: 1440px;
+  margin: 47px auto 0;
+  padding: 0 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-social span {
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+}

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  max-width: 1440px;
+  height: 130px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-img {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.header-title h1 {
+  font-family: "Monoton", cursive;
+  font-size: 48px;
+  color: var(--primary-color);
+  margin: 0;
+  font-weight: 400;
+}
+
+.header-title p {
+  font-size: 12px;
+  color: var(--primary-color);
+  margin: 4px 0 0 0;
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.user-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  max-width: 1440px;
+}
+
+.navbar li {
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar li:hover {
+  color: white;
+}
