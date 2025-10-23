@@ -1,5 +1,6 @@
 import React from "react";
-import "./Header.css";
+import { Link } from "react-router-dom";
+import "../assets/styles/Header.css";
 import UserIcon from "../assets/icons/UserIcon.jsx";
 
 const Header = () => {
@@ -29,12 +30,24 @@ const Header = () => {
       {/* Navigation bar */}
       <nav className="navbar">
         <ul>
-          <li>Trang chủ</li>
-          <li>Sản Phẩm</li>
-          <li>Dịch vụ</li>
-          <li>Giới thiệu</li>
-          <li>Thư viện ảnh</li>
-          <li>Liên hệ</li>
+          <li>
+            <Link to="/">Trang chủ</Link>
+          </li>
+          <li>
+            <Link to="/products">Sản Phẩm</Link>
+          </li>
+          <li>
+            <Link to="/services">Dịch vụ</Link>
+          </li>
+          <li>
+            <Link to="/about">Giới thiệu</Link>
+          </li>
+          <li>
+            <Link to="/gallery">Thư viện ảnh</Link>
+          </li>
+          <li>
+            <Link to="/contact">Liên hệ</Link>
+          </li>
         </ul>
       </nav>
     </header>

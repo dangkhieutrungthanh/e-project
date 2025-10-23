@@ -1,0 +1,163 @@
+.news-section {
+  text-align: left;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.section-header p {
+  max-width: 600px;
+  color: #555;
+  font-size: 16px;
+  text-align: left;
+}
+
+.section-header button {
+  padding: 8px 20px;
+  border: 1px solid #18a0fb;
+  color: #18a0fb;
+  background: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.section-header button:hover {
+  background-color: #18a0fb;
+  color: #fff;
+}
+
+.news-articles-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.news-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+.text-content {
+  max-width: 60%;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 1em;
+  color: var(--dark-gray);
+  margin: 0;
+}
+
+.articles-grid {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.article-card {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.placeholder-image {
+  width: 100%;
+  padding-bottom: 60%;
+  background-color: #007bff;
+  margin-bottom: 20px;
+}
+
+.article-card h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.article-card p {
+  font-size: 0.9em;
+  color: var(--dark-gray);
+  margin-bottom: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.read-more {
+  color: var(--dark-gray);
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.read-more:hover {
+  color: var(--primary-color);
+}
+
+.pagination-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: var(--border-color);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.dot.active {
+  background-color: var(--text-color);
+  width: 15px;
+  border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+  .articles-grid {
+    flex-wrap: wrap;
+  }
+
+  .article-card {
+    flex: 1 1 45%;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .view-all-button {
+    margin-top: 15px;
+  }
+
+  .text-content {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .article-card {
+    flex: 1 1 100%;
+  }
+}

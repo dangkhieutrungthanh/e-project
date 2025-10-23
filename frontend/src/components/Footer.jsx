@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "../assets/styles/Footer.css";
 import FaceBookIcon from "../assets/icons/FaceBookIcon.jsx";
 import YoutubeIcon from "../assets/icons/YoutubeIcon.jsx";
 import InstagramIcon from "../assets/icons/InstagramIcon.jsx";

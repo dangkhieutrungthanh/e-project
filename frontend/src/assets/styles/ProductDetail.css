@@ -1,0 +1,172 @@
+.product-detail-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+
+/* ==== TIÊU ĐỀ ==== */
+.product-detail-header {
+  margin: 40px 0;
+}
+
+.product-detail-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* ==== KHU VỰC SẢN PHẨM ==== */
+.product-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.product-detail-image {
+  width: 500px;
+  height: 400px;
+  background-color: #18a0fb;
+  border-radius: 8px;
+}
+
+.product-text {
+  flex: 1;
+}
+
+.product-text h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.product-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.btn-order {
+  margin-top: 12px;
+  padding: 12px 30px;
+  background-color: #18a0fb;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-order:hover {
+  background-color: #007bff;
+}
+
+/* ==== TAB ==== */
+.product-tabs {
+  margin: 60px 0;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.tab-buttons button.active {
+  background-color: #18a0fb;
+  color: #fff;
+  border-color: #18a0fb;
+}
+
+.tab-content {
+  background-color: #18a0fb;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.tab-content ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* ==== TIN TỨC ==== */
+.news-section {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.news-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.news-header p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  color: #555;
+}
+
+.news-header button {
+  padding: 8px 20px;
+  border: 1px solid #18a0fb;
+  color: #18a0fb;
+  background: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.news-header button:hover {
+  background-color: #18a0fb;
+  color: #fff;
+}
+
+.news-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.news-card {
+  width: 300px;
+  text-align: left;
+}
+
+.news-image {
+  width: 100%;
+  height: 180px;
+  background-color: #18a0fb;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.news-card h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.news-card p {
+  font-size: 14px;
+  color: #555;
+}
